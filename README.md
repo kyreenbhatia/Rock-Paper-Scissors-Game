@@ -1,62 +1,89 @@
 # ✊✋✌️ Rock-Paper-Scissors Game (Python CLI)
 
-# A simple command-line Rock-Paper-Scissors game built using Python.
-# Play against the computer, which makes random choices each round.
+A simple command-line Rock-Paper-Scissors game built with Python. Play against the computer, which makes a random choice each round and instantly displays the result.
 
-# --------------------------------------------------
-# 📌 FEATURES
-# --------------------------------------------------
-# - Play against computer (random choice generator)
-# - Simple and fast command-line interface
-# - Handles all win/lose/tie conditions
-# - Beginner-friendly logic and structure
+---
 
-# --------------------------------------------------
-# 🛠️ TECHNOLOGIES USED
-# --------------------------------------------------
-# - Python 3
-# - random module (for computer moves)
+## 📌 Features
 
-# --------------------------------------------------
-# 🚀 GETTING STARTED
-# --------------------------------------------------
+* 🎮 Play against the computer
+* 🎲 Randomized computer moves
+* ⚡ Fast and simple command-line interface
+* 🏆 Handles win, lose, and tie conditions
+* 📚 Beginner-friendly Python project
 
-# Check Python version
+---
+
+## 🛠️ Technologies Used
+
+* Python 3
+* `random` module
+
+---
+
+## 🚀 Getting Started
+
+Check that Python is installed:
+
+```bash
 python --version
+```
 
-# --------------------------------------------------
-# ▶️ RUN THE PROJECT
-# --------------------------------------------------
+---
 
-# 1. Clone the repository
+## ▶️ Running the Project
+
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/your-username/rock-paper-scissors.git
+```
 
-# 2. Navigate to the project directory
+### 2. Navigate to the project folder
+
+```bash
 cd rock-paper-scissors
+```
 
-# 3. Run the game
+### 3. Run the game
+
+```bash
 python rps.py
+```
 
-# --------------------------------------------------
-# 🎯 HOW TO PLAY
-# --------------------------------------------------
-# - Enter your move: Rock, Paper, or Scissor
-# - The computer will randomly select its move
-# - Rules:
-#   Rock beats Scissor
-#   Scissor beats Paper
-#   Paper beats Rock
-# - The result (Win/Lose/Tie) is displayed instantly
+---
 
-# --------------------------------------------------
-# 📂 PROJECT STRUCTURE
-# --------------------------------------------------
-# rock-paper-scissors/
-# ├── rps.py
-# └── README.md
+## 🎯 How to Play
 
+1. Enter your move:
 
-# --------------------------------------------------
-# 📄 LICENSE
-# --------------------------------------------------
-# This project is open-source under the MIT License
+   * Rock
+   * Paper
+   * Scissor
+
+2. The computer randomly selects its move.
+
+3. The winner is determined using the classic rules:
+
+* 🪨 Rock beats Scissor
+* ✂️ Scissor beats Paper
+* 📄 Paper beats Rock
+
+4. The result is displayed instantly.
+
+---
+
+## 📂 Project Structure
+
+```text
+rock-paper-scissors/
+│
+├── rps.py
+└── README.md
+```
+
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
