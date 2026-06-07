@@ -78,7 +78,7 @@ python rps.py
 ```text
 rock-paper-scissors/
 │
-├── rps.py
+├── game.py
 └── README.md
 ```
 
